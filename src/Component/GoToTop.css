@@ -1,0 +1,26 @@
+.GoToTop {
+  background:linear-gradient(120deg, #3498db, #8e44ad);
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  text-decoration: none;
+  text-align: center;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  cursor: pointer;
+  background-size: cover;
+  opacity: .7;
+}
+
+
+.fa-arrow-up {
+  color: aqua;
+  opacity: .6;
+  margin-top: 8px;
+  font-size: 25px;
+  animation: scroll 1s infinite;
+}
