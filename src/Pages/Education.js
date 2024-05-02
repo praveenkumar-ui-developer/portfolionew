@@ -27,37 +27,19 @@ const Education = () => {
        
        <Grid container rowSpacing={5} columnSpacing={5} alignItems="center" justifyContent="center" >
        
-        <Grid item xs={12} md={4}>
-          <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", padding: "5%",textAlign:"left",height:"250px" }}>
-                  <Box sx={{ background:"linear-gradient(120deg, #3498db, #8e44ad)", width: "120px", borderRadius: "5px", textAlign:"center" }}>
-                    <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2017-2018</Typography>
-                  </Box>
-                  <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>HSC</Typography>
-                  <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>Sri Ramakrishna Mission  (Main)</Typography>
-                  <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>Completed My Higher Secondary with 80%</Typography>
+       
+     
 
-                </Box>
-        </Grid>
+       
 
-        <Grid item xs={12} md={4}>
-          <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", padding: "5%",textAlign:"left",height:"250px"}}>
-                  <Box sx={{ background:"linear-gradient(120deg, #3498db, #8e44ad)",width: "120px", borderRadius: "5px", textAlign:"center" }}>
-                    <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2018-2021</Typography>
-                  </Box>
-                  <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>Bsc.Computer Science</Typography>
-                  <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>Guru Nanak College (Chennai)</Typography>
-                  <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>Completed My Bachelor Degree in Computer With First Class</Typography>
-          </Box>
-        </Grid> 
-
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={12}>
             <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", padding: "5%",textAlign:"left",height:"250px"}}>
                   <Box sx={{background:"linear-gradient(120deg, #3498db, #8e44ad)", width: "120px", borderRadius: "5px", textAlign:"center" }}>
-                    <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2022-2024</Typography>
+                    <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2018-2022</Typography>
                   </Box>
-                  <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>MCA</Typography>
-                  <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>University of Madras</Typography>
-                  <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>As of Now the final Semester mark is not Published and rest of the Semester are Cleared in All subject</Typography>
+                  <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>Bachelor of Technology</Typography>
+                  <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>Santhiram Engineering College,Nandyal</Typography>
+                  <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>Successfully Completed my graduation in Mechanical Engineering with 7.2 CGPA</Typography>
                 </Box>
         </Grid>
 
@@ -68,28 +50,28 @@ const Education = () => {
 
         <Grid container rowSpacing={5} columnSpacing={5} alignItems="center" justifyContent="center">
        
-       <Grid item xs={12} md={4}>
+       <Grid item xs={12} md={5}>
          <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", padding: "5%",textAlign:"left",height:"250px" }}>
                  <Box sx={{ background:"linear-gradient(120deg, #3498db, #8e44ad)", width: "120px", borderRadius: "5px", textAlign:"center" }}>
-                   <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2022</Typography>
+                   <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2021</Typography>
                  </Box>
-                 <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>Front End Development</Typography>
-                 <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>DLK Institute</Typography>
-                 <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>Complete Certification Course in Frontend including
-                    Html,css,javascript and
-                    ReactJS in Private Institute</Typography>
+                 <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>MERN Stack Development</Typography>
+                 <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>Elearn Infotech</Typography>
+                 <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>Complete Certification Course in Fullstack including
+                    Html,css,javascript,
+                    ReactJS and NodeJS,ExpressJS and Mongodb in Private Institute</Typography>
 
                </Box>
        </Grid>
 
-       <Grid item xs={12} md={4}>
+       <Grid item xs={12} md={5}>
          <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", padding: "5%",textAlign:"left",height:"250px"}}>
                  <Box sx={{ background:"linear-gradient(120deg, #3498db, #8e44ad)", width: "120px", borderRadius: "5px", textAlign:"center" }}>
-                   <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2024</Typography>
+                   <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2022</Typography>
                  </Box>
-                 <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>Programming with JavaScript</Typography>
-                 <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>Coursera | Meta</Typography>
-                 <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>Completed My Javascript Certification Course in Coursera Platform provided by Meta</Typography>
+                 <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>React - The Complete Guide  </Typography>
+                 <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>Udemy </Typography>
+                 <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>Completed My ReactJS including React Router Dom Certification Course in Udemy Platform.</Typography>
          </Box>
        </Grid> 
 
@@ -100,15 +82,15 @@ const Education = () => {
         <Typography sx={{ fontSize: "26px", color: "#fff", fontWeight: "bold",textAlign:"left",padding:"20px 0px",marginTop:"10px" }}>My Experience</Typography>
 
           <Grid container rowSpacing={5} columnSpacing={5} alignItems="center" justifyContent="center">
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={12}>
               <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", padding: "5%",textAlign:"left",height:"250px" }}>
                   <Box sx={{ background:"linear-gradient(120deg, #3498db, #8e44ad)", width: "120px", borderRadius: "5px",textAlign:"center" }}>
                     <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2022-Present</Typography>
                   </Box>
-                  <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>Web Developer</Typography>
-                  <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>SIVRA</Typography>
+                  <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>Frontend Developer</Typography>
+                  <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>Saama technologies</Typography>
                   <Typography sx={{ fontSize: "15px", color: "#fff", opacity: ".7", paddingTop: "7px" }}>Developing User Interfaces: Designing
-                   and developing interactive user interfaces using ReactJS, JSX, and other related technologies.</Typography>
+                   and developing interactive user interfaces using ReactJS, JavaScript, JSX, Css, Html, Bootstrap and other related technologies.</Typography>
                     </Box>
                  </Grid>
           </Grid>

@@ -62,8 +62,11 @@ const WhatIDo = () => {
                 <i class="fa-brands fa-searchengin"></i>
                 </Box>
                 <Box sx={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <Typography sx={{ color: "#fff", fontSize: "20px" }}>Search Engine Optimization </Typography>
-                  <Typography sx={{ color: "#fff", opacity: ".5" }}>Optimizing websites to improve their visibility and ranking in search engine results pages (SERPs).</Typography>
+                  <Typography sx={{ color: "#fff", fontSize: "20px" }}>Cross-Browser Compatibility </Typography>
+                  <Typography sx={{ color: "#fff", opacity: ".5" }}>
+I understand the importance of ensuring that your website looks and functions consistently across different web browsers and platforms. I rigorously test and optimize websites for cross-browser compatibility, ensuring a seamless experience for users regardless of their choice of browser or device.
+
+</Typography>
                 </Box>
               </Box>
             </Grid>

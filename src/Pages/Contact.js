@@ -42,8 +42,12 @@ function Contact() {
 
     setUserData({ ...userData, [name]: value });
   };
-
-
+  var {  phone, email, subject, message } = userData;
+  const sendMail=(e)=>{
+    e.preventDefault()
+    window.open( `mailto:'praveenpkumar.2024@gmail.com'?subject=${subject}&body=${message}`)
+    // window.location.reload()
+  }
   //Connect with Firebase
   const submitData = async (e) => {
     e.preventDefault();
@@ -51,22 +55,28 @@ function Contact() {
     const { name, phone, email, subject, message } = userData;
 
     if (name && email && subject && message && phone) {
-      const res = fetch('https://myprofile-7ss-default-rtdb.firebaseio.com/userDataRecords.json', {
-        method: "POST",
-        headers: {
-          "content-Type": 'application/json',
-        },
-        body: JSON.stringify({
-          name,
-          phone,
-          email,
-          subject,
-          message
-        })
+      
+      const sendMail=(e)=>{
+        e.preventDefault()
+        window.open( `mailto:'praveenpkumar.2024@gmail.com'?subject=${subject}&body=${message,phone}`)
+        // window.location.reload()
       }
+      // const res = fetch('https://myprofile-7ss-default-rtdb.firebaseio.com/userDataRecords.json', {
+      //   method: "POST",
+      //   headers: {
+      //     "content-Type": 'application/json',
+      //   },
+      //   body: JSON.stringify({
+      //     name,
+      //     phone,
+      //     email,
+      //     subject,
+      //     message
+      //   })
+      // }
 
 
-      );
+      // );
 
  if (phone.length != 10) {
         alert("Invalid Mobile Number")
@@ -74,14 +84,14 @@ function Contact() {
       else if (!(email.match('[a-z0-9]+@[a-z]+\.[a-z]{2,3}'))) {
         alert("Invalid Email")
       }
-      else if (res) {
-        setUserData({
-          name: "",
-          phone: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
+      // else if (res) {
+      //   setUserData({
+      //     name: "",
+      //     phone: "",
+      //     email: "",
+      //     subject: "",
+      //     message: "",
+      //   });
 
 
         //alert shown
@@ -97,10 +107,8 @@ function Contact() {
     }
 
 
-    else {
-      alert("please fill All the Data")
-    };
-  };
+    
+  
 
 
   return (
@@ -212,7 +220,7 @@ function Contact() {
                   <Box sx={{ display: "flex", justifyContent: "space-between", marginTop: "30px", alignContent: "center", alignItems: "center" }}>
                     <Grid container rowSpacing={0} columnSpacing={0}>
                       <Grid item xs={12} sm={6}>
-                        <Box type='submit' className='submit-btn' onClick={submitData} sx={{ display: 'flex', flexDirection: "row", textAlign: "center", gap: "10px" }}>
+                        <Box type='submit' className='submit-btn' onClick={sendMail} sx={{ display: 'flex', flexDirection: "row", textAlign: "center", gap: "10px" }}>
                           <i class="fa-solid fa-paper-plane"></i>
                           <Typography>Send</Typography>
                         </Box>
@@ -231,7 +239,7 @@ function Contact() {
                     </Grid>
                   </Box>
                 </form>
-              </Box>
+              </Box>63
             </Grid>
 
 
@@ -252,15 +260,15 @@ function Contact() {
 
                 <Box sx={{ display: "flex", gap: "15px", marginTop: '10px' }}>
                   <i class="fa-solid fa-location-dot"></i>
-                  <Typography sx={{ color: "grey" }}>Chennai, India</Typography>
+                  <Typography sx={{ color: "grey" }}>AP, India</Typography>
                 </Box>
                 <Box sx={{ display: "flex", gap: "15px" }} className="cnt-link">
                   <i class="fa-solid fa-phone"></i>
-                  <Typography sx={{ color: "grey" }}><a href="tel:6369260614">6369260614</a></Typography>
+                  <Typography sx={{ color: "grey" }}><a href="tel:+91 7095392139">+91 7095392139</a></Typography>
                 </Box>
                 <Box sx={{ display: "flex", gap: "15px" }} className="cnt-link">
                   <i class="fa-regular fa-envelope"></i>
-                  <Typography type="email"  sx={{ color: "aqua"}}><a href="mailto:harisankar11a@gmail.com">harisankar11a@gmail.com</a></Typography>
+                  <Typography type="email"  sx={{ color: "aqua"}}><a href="mailto:praveenpkumar.2024@gmail.com">praveenpkumar.2024@gmail.com</a></Typography>
                 </Box>
               </Box>
 
@@ -271,10 +279,10 @@ function Contact() {
                 </Box>
 
                 <Box sx={{ display: "flex", flexDirection: "row", gap: "20px" }}>
-                  <a href='https://www.instagram.com/__h_a_r_i.______/' target='_blank'><i className="fa-brands fa-instagram"></i></a>
-                  <a href='https://www.linkedin.com/in/hari-haran-s-88bb8320b/' target='_blank'><i className="fa-brands fa-linkedin-in"></i></a>
+                  <a href='https://www.instagram.com/praveen_9866/' target='_blank'><i className="fa-brands fa-instagram"></i></a>
+                  <a href='https://www.linkedin.com/in/praveen-kumar-paradesi-99a53022a/' target='_blank'><i className="fa-brands fa-linkedin-in"></i></a>
                   {/* <a href='#'><i className="fa-brands fa-facebook"></i></a> */}
-                  <a href='https://github.com/Hariharan-in/' target='_blank'><i class="fa-brands fa-github"></i></a>
+                  <a href='https://github.com/praveenkumar-ui-developer' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </Box>
               </Box>
             </Grid>

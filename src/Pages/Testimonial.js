@@ -13,9 +13,9 @@ function Testimonial() {
         <Container>
         <Box sx={{ display: "flex", flexDirection: "column" }}>
           <Box>
-            <Typography className="testimonial-title" sx={{ textAlign: "center", fontWeight: "bold", fontSize: "110px", color: "white", opacity: ".1", letterSpacing: "4px" }}>TESTIMONIAL</Typography>
+            <Typography className="testimonial-title" sx={{ textAlign: "center", fontWeight: "bold", fontSize: "110px", color: "white", opacity: ".1", letterSpacing: "4px" }}>PORTFOLIO</Typography>
             <Box className="testimonial-title1" sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <Typography className='testimonial-quote' sx={{ textAlign: "center", fontWeight: "bold", fontSize: "35px", color: "white", marginTop: "-100px" }}>Client Speak</Typography>
+              <Typography className='testimonial-quote' sx={{ textAlign: "center", fontWeight: "bold", fontSize: "35px", color: "white", marginTop: "-100px" }}>Personal Projects</Typography>
               <Divider sx={{ bgcolor: "aqua", height: "4px", width: "80px", justifyContent: "center" }}></Divider>
             </Box>
           </Box>
@@ -54,69 +54,80 @@ function Testimonial() {
           >
             <SwiperSlide>
               <Box sx={{ bgcolor: "#212529!important", padding: "4% 5% 15% 5%" }}>
+              <a href="https://dailytaskcrud.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", display: "flex", flexDirection: "column", gap: "25px", padding: "30px" }}>
                   <Box sx={{ display: "flex", gap: "20px" }}>
-                    <img className="client-image" src="assets/media/testimonial/client-sm-1.jpg" width={70} height={70} />
+                    <img className="client-image cursor-pointer" src="assets/media/testimonial/dailytask.png" width={70} height={70} />
                     <Box>
-                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Dennis Jacque</Typography>
-                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>User from USA</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Daily Task Update</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>Task Tracker</Typography>
                     </Box>
                   </Box>
                   <Typography sx={{ color: "GrayText" }}>
-                    "Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry."
+                    "TaskTracker is a user-friendly web application designed to help individuals efficiently track and manage their daily tasks. With TaskTracker."
                   </Typography>
                 </Box>
+                </a>
               </Box>
             </SwiperSlide>
 
             <SwiperSlide>
               <Box sx={{ bgcolor: "#212529!important", padding: "4% 5% 15% 5%" }}>
+              <a href="https://city-weather-webapplication.netlify.app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+           
                 <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", display: "flex", flexDirection: "column", gap: "25px", padding: "30px" }}>
                   <Box sx={{ display: "flex", gap: "20px" }}>
-                    <img className="client-image" src="assets/media/testimonial/client-sm-2.jpg" width={70} height={70} />
+                    <img className="client-image" src="assets/media/testimonial/whether.png" width={70} height={70} />
                     <Box>
-                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>4Dennis Jacque</Typography>
-                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>User from USA</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Weather Application</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>Real-Time Weather Updates</Typography>
                     </Box>
                   </Box>
                   <Typography sx={{ color: "GrayText" }}>
-                    "Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry."
+                    " Get instant access to current weather conditions, including temperature, humidity, wind speed, and more, for any location worldwide."
                   </Typography>
                 </Box>
+                </a>
               </Box>
             </SwiperSlide>
 
             <SwiperSlide>
               <Box sx={{ bgcolor: "#212529!important", padding: "4% 5% 15% 5%" }}>
+              <a href="https://super-shoping.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+           
                 <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", display: "flex", flexDirection: "column", gap: "25px", padding: "30px" }}>
                   <Box sx={{ display: "flex", gap: "20px" }}>
-                    <img className="client-image" src="assets/media/testimonial/client-sm-3.jpg" width={70} height={70} />
+                    <img className="client-image" src="assets/media/testimonial/shopify.png" width={70} height={70} />
                     <Box>
-                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Dennis Jacque</Typography>
-                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>User from USA</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Ecommerece website</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>Shopify</Typography>
                     </Box>
                   </Box>
                   <Typography sx={{ color: "GrayText" }}>
-                    "Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry."
+                    "you can explore  products, add items to your cart, manage your shopping list, and complete purchases with ease.."
                   </Typography>
                 </Box>
+                </a>
               </Box>
             </SwiperSlide>
 
             <SwiperSlide>
               <Box sx={{ bgcolor: "#212529!important", padding: "4% 5% 15% 5%" }}>
+              <a href="https://browser-url.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+          
                 <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", display: "flex", flexDirection: "column", gap: "25px", padding: "30px" }}>
                   <Box sx={{ display: "flex", gap: "20px" }}>
-                    <img className="client-image" src="assets/media/testimonial/client-sm-4.jpg" width={70} height={70} />
+                    <img className="client-image" src="assets/media/testimonial/browser.png" width={70} height={70} />
                     <Box>
-                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Dennis Jacque</Typography>
-                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>User from USA</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Browser</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>Wikipidia & Iframes browser</Typography>
                     </Box>
                   </Box>
                   <Typography sx={{ color: "GrayText" }}>
-                    "Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry."
+                    "This web browser application allows users to search for information using URLs,The content displayed in the browser is sourced from the websites linked to the provided URL."
                   </Typography>
                 </Box>
+                </a>
               </Box>
             </SwiperSlide>
 

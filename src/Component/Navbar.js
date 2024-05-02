@@ -25,9 +25,9 @@ function Navbar() {
             <li className='nav_item'><Link className='nav_link' to="contact" spy={true} smooth={true} duration={100}>Contact</Link></li>
           </ul>
           <Box sx={{ display: "flex", gap: "20px" }}>
-            <a href='https://www.instagram.com/__h_a_r_i.______/' target='_blank'><i className="fa-brands fa-instagram"></i></a>
-            <a href='https://www.linkedin.com/in/hari-haran-s-88bb8320b/' target='_blank'><i className="fa-brands fa-linkedin-in"></i></a>
-            <a href='https://github.com/Hariharan-in/' target='_blank'><i class="fa-brands fa-github"></i></a>
+            <a href='https://www.instagram.com/praveen_9866/' target='_blank'><i className="fa-brands fa-instagram"></i></a>
+            <a href='https://www.linkedin.com/in/praveen-kumar-paradesi-99a53022a/' target='_blank'><i className="fa-brands fa-linkedin-in"></i></a>
+            <a href='https://github.com/praveenkumar-ui-developer' target='_blank'><i class="fa-brands fa-github"></i></a>
           </Box>
         </nav>
         </div>

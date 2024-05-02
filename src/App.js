@@ -10,11 +10,18 @@ import Home from './Pages/Home';
 import RiseLoader from "react-spinners/RiseLoader";
 import GoToTop from './Component/GoToTop'
 import Education from './Pages/Education'
+import Testimonial from './Pages/Testimonial'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import Skills from './Pages/Skills'
 
 
 function App() {
 
   const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    Aos.init(2000);
+  }, [])
 
   useEffect(() => {
     setLoading(true)
@@ -48,7 +55,8 @@ function App() {
             <Resume />
             <WhatIDo />
             {/* <Portfolio /> */}
-            {/* <Testimonial /> */}
+            {/* <Skills/> */}
+            <Testimonial />
             <Contact />
           
           </div>

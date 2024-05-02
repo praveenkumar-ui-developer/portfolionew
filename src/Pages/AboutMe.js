@@ -22,7 +22,7 @@ const AboutMe = () => {
                                 <Grid item xs={12} sm={12} md={8}>
                                     <Box sx={{ display: "flex", flexDirection: "row", gap: "8px" }}>
                                         <Typography className='about-typo' sx={{ color: "white", fontSize: "30px" }}>I'm</Typography>
-                                        <Typography className='about-typo' sx={{ fontSize: "30px", backgroundImage: "linear-gradient(120deg, #3498db, #8e44ad)", color: "transparent", backgroundClip: "text" }}>Hariharan,</Typography>
+                                        <Typography className='about-typo' sx={{ fontSize: "30px", backgroundImage: "linear-gradient(120deg, #3498db, #8e44ad)", color: "transparent", backgroundClip: "text" }}>Praveen,</Typography>
                                         <Typography className='about-typo' sx={{ color: "white", fontSize: "30px" }}> a Web Developer</Typography>
                                     </Box>
                                     <br></br>
@@ -43,24 +43,24 @@ const AboutMe = () => {
 
                                 <Grid item xs={12} sm={12} md={4}>
                                     <Box sx={{ display: "flex", flexDirection: "column" }} className="cnt-link">
-                                        <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>Name: Hariharan</Typography>
+                                        <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>Name: Praveen Kumar</Typography>
                                         <Divider sx={{ bgcolor: "white", width: '70%', margin: "10px 0px 10px 0px" }}></Divider>
-                                        <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>Email: <a href="mailto:harisankar11a@gmail.com">harisankar11a@gmail.com</a></Typography>
+                                        <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>Email: <a href="mailto:praveenpkumar.2024@gmail.com">praveenpkumar.2024@gmail.com</a></Typography>
                                         <Divider sx={{ bgcolor: "white", width: '70%', margin: "10px 0px 10px 0px" }}></Divider>
-                                        <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>Phone: <a href="tel:6369260614">6369260614</a></Typography>
+                                        <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>Phone: <a href="tel:+91 7095392139">+91 7095392139</a></Typography>
                                         <Divider sx={{ bgcolor: "white", width: '70%', margin: "10px 0px 10px 0px" }}></Divider>
-                                        <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>From: Chennai, India</Typography>
-                                        <Box sx={{ width: "200px" }}>   <a href='assets/media/Hari_Resume.pdf' target="_blank" rel="noopener noreferrer">
-                                            <button className='resume-btn' variant='contained' type="submit">Download Resume</button>
+                                        <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>From: AP, India</Typography>
+                                        <Box sx={{ width: "200px" }}>   <a href='https://drive.google.com/file/d/1ha9LblWr46vg-k3Z_ZjQBwhQbm_FMNHa/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+                                            <button className='resume-btn' variant='contained' type="submit">View My Resume</button>
                                         </a></Box>
                                     </Box>
                                 </Grid>
                             </Grid>
                         </Box>
 
-                        {/* <section className="count-down">
+                         <section className="count-down">
 
-                            <Box sx={{ padding: "0% 10% 0% 5%" }}>
+                            <Box sx={{ padding: "0% 10% 0% 25%" }}>
                                 <Grid container rowSpacing={8} columnSpacing={8}>
                                     <Grid className="count-grid" item xs={6} sm={6} md={3} >
                                         <Box className="countdown-box" sx={{ marginLeft: "20px", paddingLeft: "10px" }}>
@@ -79,7 +79,7 @@ const AboutMe = () => {
                                         <Box className="countdown-box" sx={{ marginLeft: "20px", paddingLeft: "10px" }}>
                                             <Box display={"flex"}>
                                                 <Typography className="counter" sx={{ fontSize: '40px', fontWeight: "700", color: "white" }}>
-                                                    0
+                                                    3
                                                 </Typography>
                                                 <Typography sx={{ fontSize: '40px', fontWeight: "700", color: "white" }}>
                                                     +
@@ -93,7 +93,7 @@ const AboutMe = () => {
                                         <Box className="countdown-box" sx={{ marginLeft: "20px", paddingLeft: "10px" }}>
                                             <Box display={"flex"}>
                                                 <Typography className="counter" sx={{ fontSize: '40px', fontWeight: "700", color: "white" }}>
-                                                    6
+                                                    7
                                                 </Typography>
                                                 <Typography sx={{ fontSize: '40px', fontWeight: "700", color: "white" }}>
                                                     +
@@ -102,21 +102,10 @@ const AboutMe = () => {
                                         </Box>
                                     </Grid>
 
-                                    <Grid className="count-grid" item xs={6} sm={6} md={3}>
-                                        <Box className="countdown-box" sx={{ marginLeft: "20px", paddingLeft: "10px" }}>
-                                            <Box display={"flex"}>
-                                                <Typography className="counter" sx={{ fontSize: '40px', fontWeight: "700", color: "white" }}>
-                                                    3
-                                                </Typography>
-                                                <Typography sx={{ fontSize: '40px', fontWeight: "900", color: "white" }}>
-                                                    +
-                                                </Typography></Box>
-                                            <Typography sx={{ fontWeight: 'bold', fontSize: "15px", color: "white" }}>Services</Typography>
-                                        </Box>
-                                    </Grid>
+                                   
                                 </Grid>
                             </Box>
-                        </section> */}
+                        </section> 
                     </Box>
                 </Container>
             </Box>

@@ -22,13 +22,13 @@ return (
                 <Box className="title" sx={{ display: "flex",height:"100vh", flexDirection: "column", gap: "10px", alignItems: "left", justifyContent:"center" }}>
           
           <Typography className='title-name' sx={{ fontSize: "40px",color:"white" }}>Hi,</Typography>
-          <Typography sx={{ fontSize: "45px",backgroundImage:"linear-gradient(120deg, #3498db, #8e44ad)",color:"transparent",backgroundClip:"text" }}><span style={{color:"white",fontSize:"40px",paddingRight:"10px"}}>I'm</span>Hariharan</Typography>
+          <Typography sx={{ fontSize: "45px",backgroundImage:"linear-gradient(120deg, #3498db, #8e44ad)",color:"transparent",backgroundClip:"text" }}><span style={{color:"white",fontSize:"40px",paddingRight:"10px"}}>I'm</span>Praveen Kumar</Typography>
           <Typed
             className='animation-type'
             strings={[
-              'Developer',
-              'Coder',
-              'Learner'
+              'Frontend Developer',
+              'web Developer',
+              
             ]}
             typeSpeed={150}
             backSpeed={100}
