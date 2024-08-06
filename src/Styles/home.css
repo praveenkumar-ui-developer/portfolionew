@@ -159,13 +159,38 @@ nav .nav_toggler div {
 
 
 /* home */
+.img-container {
+    display: inline-block;
+    position: relative;
+}
 
+.img-container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2px;
+    background-color: rgb(224, 85, 198); /* Background color you want */
+    border-radius: 50%; /* Same radius as your image if it is round */
+    z-index: -1;
+    filter: drop-shadow(20px 20px 30px rgb(74, 147, 237)); /* Your shadow effect */
+}
+
+.praveenbg {
+    display: block;
+    border-radius: 50%; /* Same as the pseudo-element if the image is round */
+}
 
 #home {
     /* background: rgba(34, 34, 34, .9); */
     
 }
-
+.title{
+    margin-top: 100px !important;
+}
 
 #home .backgroung-clip {
     position: absolute;

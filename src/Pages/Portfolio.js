@@ -6,6 +6,18 @@ function Portfolio() {
 
   return (
     <div id="portfolio">
+       <Helmet>
+        <title>Praveen | Software Development | Frontend Developer</title>
+
+        <meta
+          name="description"
+          content="I am an Innovative Front-End Developer with multiple Years of Experience in Web Development, Software Development and SEO."
+        />
+        <meta
+          name="keywords"
+          content="Praveen Kumar, praveen kumar portfolio,praveen kumar paradesi,praveen portfolio, software development, praveen kumar software developer, praveen kumar react developer, praveen kumar frontend developer, react developer, javascript developer, praveen kumar seo expert, seo expert, frontend developer, praveen kumar digital marketing"
+        />
+      </Helmet>
       <Box sx={{ backgroundColor: "#212529", height: "100%", padding:"50px 0%" }}>
         <Container>
         <Box sx={{ display: "flex", flexDirection: "column" }}>
