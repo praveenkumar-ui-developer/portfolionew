@@ -43,7 +43,7 @@ const Resume = () => {
               <Skills />
             </Box>
             <Box>
-              <a href='https://drive.google.com/file/d/1JiFhOME6rEJL66ghYqhb5B7MNxhEa6cM/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+              <a href='https://drive.google.com/file/d/1PB9YVmqIHyV0EDbuw6vyZgIyeSFopndp/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                 <Button variant="outlined"
                   sx={{
                     padding: "10px", marginTop: "2%", borderRadius: "25px", width: "200px", color: "aqua", borderColor: "aqua"

@@ -54,6 +54,45 @@ function Testimonial() {
           >
             <SwiperSlide>
               <Box sx={{ bgcolor: "#212529!important", padding: "4% 5% 15% 5%" }}>
+              <a href="https://expense-explorer.netlify.app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", display: "flex", flexDirection: "column", gap: "25px", padding: "30px" }}>
+                  <Box sx={{ display: "flex", gap: "20px" }}>
+                    <img className="client-image cursor-pointer" src="assets/media/testimonial/expense.png" width={70} height={70} />
+                    <Box>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Expense Explorer</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>Task daily spendings</Typography>
+                    </Box>
+                  </Box>
+                  <Typography sx={{ color: "GrayText" }}>
+                    "Expense Explorer is a user-friendly web application designed to help individuals efficiently track and manage their spendings."
+                  </Typography>
+                </Box>
+                </a>
+              </Box>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <Box sx={{ bgcolor: "#212529!important", padding: "4% 5% 15% 5%" }}>
+              <a href="https://indiaghar.netlify.app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", display: "flex", flexDirection: "column", gap: "25px", padding: "30px" }}>
+                  <Box sx={{ display: "flex", gap: "20px" }}>
+                    <img className="client-image cursor-pointer" src="assets/media/testimonial/indiaghar.png" width={70} height={70} />
+                    <Box>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Indiaghar</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>Affiliate marketing</Typography>
+                    </Box>
+                  </Box>
+                  <Typography sx={{ color: "GrayText" }}>
+                    "Indiaghar is a affiliate marketing Ecommerece website users can buy they liked products."
+                  </Typography>
+                </Box>
+                </a>
+              </Box>
+            </SwiperSlide>
+           
+
+            <SwiperSlide>
+              <Box sx={{ bgcolor: "#212529!important", padding: "4% 5% 15% 5%" }}>
               <a href="https://dailytaskcrud.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", display: "flex", flexDirection: "column", gap: "25px", padding: "30px" }}>
                   <Box sx={{ display: "flex", gap: "20px" }}>
@@ -105,6 +144,26 @@ function Testimonial() {
                   </Box>
                   <Typography sx={{ color: "GrayText" }}>
                     "you can explore  products, add items to your cart, manage your shopping list, and complete purchases with ease.."
+                  </Typography>
+                </Box>
+                </a>
+              </Box>
+            </SwiperSlide>
+
+
+            <SwiperSlide>
+              <Box sx={{ bgcolor: "#212529!important", padding: "4% 5% 15% 5%" }}>
+              <a href="https://todo-reduxstore.netlify.app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", display: "flex", flexDirection: "column", gap: "25px", padding: "30px" }}>
+                  <Box sx={{ display: "flex", gap: "20px" }}>
+                    <img className="client-image cursor-pointer" src="assets/media/testimonial/tasktrack.png" width={70} height={70} />
+                    <Box>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "20px" }}>Task Manager</Typography>
+                      <Typography sx={{ fontWeight: "bold", color: "#fff", fontSize: "14px", opacity: ".6" }}>Manage your daily tasks</Typography>
+                    </Box>
+                  </Box>
+                  <Typography sx={{ color: "GrayText" }}>
+                    "Task Manager web application to help individuals efficiently track their schedule works on daily basis."
                   </Typography>
                 </Box>
                 </a>

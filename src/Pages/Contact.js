@@ -314,7 +314,7 @@ const [open, setOpen] = React.useState(false);
         <Box sx={{ padding: "3% 0% 2% 5%" }}>
           <Grid container rowSpacing={2} columnSpacing={0}>
             <Grid item xs={12} sm={6}>
-              <Typography className='footer-typo' sx={{ color: "aqua", fontSize: "17px" }}>Thanks for visiting my Portfolio <br/>We define Your project and Your goals together with You</Typography>
+              <Typography className='footer-typo' sx={{ color: "aqua", fontSize: "17px" }}>Thanks for visiting my Portfolio! <br/>We define Your project and Your goals together with You</Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
               <Box>

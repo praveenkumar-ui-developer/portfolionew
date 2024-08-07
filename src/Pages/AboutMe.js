@@ -59,7 +59,7 @@ const AboutMe = () => {
                     <Divider sx={{ bgcolor: "white", width: '70%', margin: "10px 0px 10px 0px" }}></Divider>
                     <Typography sx={{ fontSize: "16px", color: "white", fontWeight: "bold" }}>From: AP, India</Typography>
                     <Box sx={{ width: "200px" }}>
-                      <a href='https://drive.google.com/file/d/1JiFhOME6rEJL66ghYqhb5B7MNxhEa6cM/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+                      <a href='https://drive.google.com/file/d/1PB9YVmqIHyV0EDbuw6vyZgIyeSFopndp/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                         <button className='resume-btn' variant='contained' type="submit">View My Resume</button>
                       </a>
                     </Box>

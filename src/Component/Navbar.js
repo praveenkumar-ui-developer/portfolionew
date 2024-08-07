@@ -12,7 +12,7 @@ function Navbar() {
         <nav className="d-flex justify-content-between align-items-center">
           <Link to="home" spy={true} smooth={true} duration={100}>
             <Typography className='web-logo' sx={{ backgroundImage:"linear-gradient(120deg, #3498db, #8e44ad)", color:"transparent", backgroundClip:"text", fontSize: "27px", textDecoration: 'none' }}>
-              MyPortfolio
+              Praveen Kumar
             </Typography>
           </Link>
           <ul className="nav-menu d-flex list-unstyled mb-0">
