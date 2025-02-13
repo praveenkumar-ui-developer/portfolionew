@@ -36,7 +36,7 @@ const Education = () => {
                   <Grid item xs={12} md={5}>
                     <Box sx={{ bgcolor: "black", borderRadius: "5px", opacity: ".8", padding: "5%", textAlign: "left", height: "250px" }}>
                       <Box sx={{ background: "linear-gradient(120deg, #3498db, #8e44ad)", width: "120px", borderRadius: "5px", textAlign: "center" }}>
-                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2021</Typography>
+                        <Typography sx={{ fontSize: "15px", color: "black", fontWeight: "bold", padding: "3px" }}>2024(Aug)-2025(Jan)</Typography>
                       </Box>
                       <Typography sx={{ fontSize: "23px", color: "#fff", paddingTop: "7px" }}>MERN Stack Development</Typography>
                       <Typography sx={{ fontSize: "18px", color: "aqua", paddingTop: "7px" }}>Elearn Infotech</Typography>
